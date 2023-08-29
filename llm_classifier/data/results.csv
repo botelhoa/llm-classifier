@@ -1,0 +1,15 @@
+,model,examples,partisanship,topic,all
+0,gpt-3.5-turbo,few,0.46,0.62,0.54
+1,gpt-3.5-turbo,zero,0.31,0.64,0.47
+2,TheBloke_Wizard-Vicuna-13B-Uncensored-HF,zero,0.34,0.2,0.27
+3,nomic-ai_gpt4all-13b-snoozy,zero,0.35,0.12,0.23
+4,nomic-ai_gpt4all-13b-snoozy,few,0.13,0.33,0.23
+5,NousResearch_Nous-Hermes-13b,zero,0.32,0.09,0.2
+6,TheBloke_Wizard-Vicuna-13B-Uncensored-HF,few,0.2,0.15,0.17
+7,TheBloke_stable-vicuna-13B-HF,zero,0.13,0.16,0.14
+8,NousResearch_Nous-Hermes-13b,few,0.17,0.08,0.13
+9,TheBloke_stable-vicuna-13B-HF,few,0.19,0.06,0.13
+10,distilbert-base-uncased,many,,0.39,
+11,distilbert-base-uncased,many_confident,,0.44,
+12,nghuyong_ernie-2.0-base-en,many,,0.63,
+13,nghuyong_ernie-2.0-base-en,many_confident,,0.61,

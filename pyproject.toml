@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "llm-classifier"
+version = "0.1.0"
+description = ""
+authors = ["Austin Botelho <ab11211@nyu.edu>"]
+readme = "README.md"
+packages = [{include = "llm_classifier"}]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+pandas = "^2.0.1"
+transformers = "^4.28.1"
+fastparquet = "^2023.4.0"
+click = "^8.1.3"
+langchain = "^0.0.177"
+datasets = "^2.12.0"
+cleanlab = "^2.4.0"
+poethepoet = "^0.20.0"
+bitsandbytes = "^0.39.0"
+einops = "^0.6.1"
+sentencepiece = "^0.1.99"
+protobuf = "^4.23.2"
+openai = "^0.27.7"
+backoff = "^2.2.1"
+plotly = "^5.15.0"
+instructorembedding = "^1.0.1"
+sentence-transformers = "^2.2.2"
+
+
+[tool.poe.tasks]
+accelerate = "python -m pip install accelerate"
+
+
+[tool.poetry.scripts]     
+run = "llm_classifier.main:run"
+train = "llm_classifier.main:train"
+evaluate = "llm_classifier.utils.evaluate:evaluate"
+benchmark = "llm_classifier.benchmarking.benchmark:cli"
+download = "llm_classifier.main:download"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
