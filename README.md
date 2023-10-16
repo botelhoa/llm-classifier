@@ -65,7 +65,7 @@ Optionally, you can pass the flags:
 | --- | --- | --- |	--- | --- |
 | gpt-3.5-turbo | few |	**0.46** | **0.62** | **0.54** |
 | gpt-3.5-turbo| zero |	0.31 | 0.64 | 0.47 |
-| TheBloke/Wizard-Vicuna-13B-Uncensored-HF | |zero | 0.34 | 0.20 | 0.27 |
+| TheBloke/Wizard-Vicuna-13B-Uncensored-HF | zero | 0.34 | 0.20 | 0.27 |
 | nomic-ai/gpt4all-13b-snoozy |	zero | 0.35 | 0.12 | 0.23 |
 | nomic-ai/gpt4all-13b-snoozy | few | 0.13 | 0.33 | 0.23 |
 | NousResearch/Nous-Hermes-13b | zero | 0.32 | 0.09 | 0.20 |
